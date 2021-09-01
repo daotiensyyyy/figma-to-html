@@ -12,6 +12,7 @@
     <link href="./fontawsome/fontawesome-free-5.15.4-web/css/all.min.css" rel="stylesheet">
     <!--load all styles -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/grid.css">
 </head>
 
 <body>
@@ -49,57 +50,130 @@
             </nav>
         </div>
         <div class="banner">
-            <div class="banner__container">
-                <div class="banner__introduce">
+            <div class="grid wide container">
+                <div class="row banner__container">
+                    <div class="col l-6 m-12 c-12 banner__introduce">
+                        <div class="banner__introduce-heading">Hi, I am John, Creative Technologist</div>
+                        <div class="banner__introduce-text">Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Sint
+                            molestias explicabo ipsam facere neque quae minus beatae omnis, iusto quas odit incidunt
+                            ducimus
+                            deleniti molestiae facilis ex tempora nihil! Blanditiis explicabo veritatis ea,
+                            excepturi
+                            velit
+                            non
+                            nam quo voluptate! Voluptates vitae nisi ab eaque iste placeat sunt magnam suscipit
+                            accusantium!
+                        </div>
+                        <button class="banner__btn">
+                            Download Resume
+                        </button>
+                    </div>
+                    <div class="col l-6 m-12 c-12 banner__image">
+                        <img src="./img/img.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="col l-6 m-12 c-12 banner__introduce">
                     <div class="banner__introduce-heading">Hi, I am John, Creative Technologist</div>
-                    <div class="banner__introduce-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint
-                        molestias explicabo ipsam facere neque quae minus beatae omnis, iusto quas odit incidunt ducimus
-                        deleniti molestiae facilis ex tempora nihil! Blanditiis explicabo veritatis ea, excepturi velit
+                    <div class="banner__introduce-text">Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                        Sint
+                        molestias explicabo ipsam facere neque quae minus beatae omnis, iusto quas odit incidunt
+                        ducimus
+                        deleniti molestiae facilis ex tempora nihil! Blanditiis explicabo veritatis ea,
+                        excepturi
+                        velit
                         non
-                        nam quo voluptate! Voluptates vitae nisi ab eaque iste placeat sunt magnam suscipit accusantium!
+                        nam quo voluptate! Voluptates vitae nisi ab eaque iste placeat sunt magnam suscipit
+                        accusantium!
                     </div>
                     <button class="banner__btn">
                         Download Resume
                     </button>
                 </div>
-                <div class="banner__image">
+                <div class="col l-6 m-12 c-12 banner__image">
                     <img src="./img/img.png" alt="">
-                </div>
-            </div>
+                </div> -->
         </div>
         <div class="activity">
-            <div class="activity__container">
-                <div class="activity__container-action">
-                    <div class="activity__container-label">Recent posts</div>
-                    <div class="activity__container-view-all">View all</div>
-                </div>
-                <div class="post">
-                    <div class="post__container">
-                        <div class="post__container-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Laudantium, vel!
-                        </div>
-                        <div class="date-container">
-                            <ul class="date-container__list">
-                                <li class="date-container__item date-container__item-separate">12 Feb, 2020</li>
-                                <li class="date-container__item">Design pattern</li>
-                            </ul>
-                        </div>
-                        <div class="post__container-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Distinctio neque iure dolore culpa quasi totam illum quas suscipit nihil! Quod nobis dolorem
-                            at tempora mollitia autem, explicabo deserunt dolor culpa?</div>
+            <div class="grid wide container">
+                <div class="activity__container">
+                    <div class="activity__container-action">
+                        <div class="activity__container-label">Recent posts</div>
+                        <div class="activity__container-view-all">View all</div>
                     </div>
-                    <div class="post__container">
-                        <div class="post__container-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Magnam, temporibus!</div>
-                        <div class="date-container">
-                            <ul class="date-container__list">
-                                <li class="date-container__item date-container__item-separate">12 Feb, 2020</li>
-                                <li class="date-container__item">Design pattern</li>
-                            </ul>
+                    <div class="row post">
+                        <div class="col l-4 m-6 c-12">
+                            <div class="post__container">
+                                <div class="post__container-title">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit.
+                                    Laudantium, vel!
+                                </div>
+                                <div class="date-container">
+                                    <ul class="date-container__list">
+                                        <li class="date-container__item date-container__item-separate">12 Feb, 2020
+                                        </li>
+                                        <li class="date-container__item">Design pattern</li>
+                                    </ul>
+                                </div>
+                                <div class="post__container-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Distinctio neque iure dolore culpa quasi totam illum quas suscipit nihil! Quod
+                                    nobis
+                                    dolorem
+                                    at tempora mollitia autem, explicabo deserunt dolor culpa?</div>
+                            </div>
                         </div>
-                        <div class="post__container-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Distinctio neque iure dolore culpa quasi totam illum quas suscipit nihil! Quod nobis dolorem
-                            at tempora mollitia autem, explicabo deserunt dolor culpa?</div>
+
+                        <div class="col l-4 m-6 c-12 ">
+                            <div class="post__container">
+                                <div class="post__container-title">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit.
+                                    Laudantium, vel!
+                                </div>
+                                <div class="date-container">
+                                    <ul class="date-container__list">
+                                        <li class="date-container__item date-container__item-separate">12 Feb, 2020
+                                        </li>
+                                        <li class="date-container__item">Design pattern</li>
+                                    </ul>
+                                </div>
+                                <div class="post__container-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Distinctio neque iure dolore culpa quasi totam illum quas suscipit nihil! Quod
+                                    nobis
+                                    dolorem
+                                    at tempora mollitia autem, explicabo deserunt dolor culpa?</div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-6 c-12 ">
+                            <div class="post__container">
+                                <div class="post__container-title">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit.
+                                    Laudantium, vel!
+                                </div>
+                                <div class="date-container">
+                                    <ul class="date-container__list">
+                                        <li class="date-container__item date-container__item-separate">12 Feb, 2020
+                                        </li>
+                                        <li class="date-container__item">Design pattern</li>
+                                    </ul>
+                                </div>
+                                <div class="post__container-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Distinctio neque iure dolore culpa quasi totam illum quas suscipit nihil! Quod
+                                    nobis
+                                    dolorem
+                                    at tempora mollitia autem, explicabo deserunt dolor culpa?</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
