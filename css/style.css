@@ -40,37 +40,23 @@ html{
 
 /*Banner*/
 .banner__container{
-    /* display: flex;
-    justify-content: space-between; */
     width: 100%;
     margin-top: 100px;
     margin-bottom: 70px;
 }
 
 .banner__introduce-heading{
-    /* width: 450px; */
     font-size: 2.75rem;
     font-weight: 700;
     color: #21243D;
     line-height: 60px;
 }
-/* .banner__introduce-text{
-    width: 530px;
-    font-size: 1rem;
-    line-height: 23.5px;
-    font-weight: 400;
-    margin-top: 40px;
-} */
-/* .banner__image{
-    margin-right: 150px;
-} */
 
 .banner__image img{
     width: 200px;
     height: 200px;
     border: 1px solid #ffffff;
     border-radius: 50%;
-    /* margin-left: 250px; */
     justify-content:flex-end;
     float: right;
 }
@@ -220,9 +206,6 @@ html{
 }
 
 /*** BLOG ***/
-.blog-container__wrap{
-    margin: 45px 60px;
-}
 
 .blog-container__heading{
     color: #21243D;
